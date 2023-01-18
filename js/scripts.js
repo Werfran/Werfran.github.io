@@ -11,4 +11,5 @@ fetch("https://randomuser.me/api/").then(
 
 fillData = function(dataUsuario){
     document.getElementById("imagenUsuario").src = dataUsuario.picture.large
+    document.getElementById("nombreHeader").innerHTML = dataUsuario.name.last + ', ' + dataUsuario.name.first;
 }
