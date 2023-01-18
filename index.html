@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Proyecto final integrador</title>
         <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -15,19 +16,26 @@
             <nav id="contactInfoContainer">
                 <li>
                     <h4>Correo</h4>
-                    <p id="correoText"></p>
+                    <div style="display: flex;">
+                        <p id="correoText"></p>
+                        <button onclick="bufferText('correoText')">Copiar <i class="fa fa-clipboard"></i></button>
+                        
+                    </div>
                 </li>
                 <li>
                     <h4>Telefono</h4>
                     <p id="telefonoText"></p>
+                    <button onclick="bufferText('telefonoText')">Copiar <i class="fa fa-clipboard"></i></button>
                 </li>
                 <li>
                     <h4>Celular</h4>
                     <p id="celularText"></p>
+                    <button onclick="bufferText('celularText')">Copiar <i class="fa fa-clipboard"></i></button>
                 </li>
                 <li>
                     <h4>Residencia</h4>
                     <p id="residenciaText"></p>
+                    <button onclick="bufferText('correoText')">Copiar <i class="fa fa-clipboard"></i></button>
                 </li>
             </nav>
             <script src="js/scripts.js"></script>
@@ -49,7 +57,7 @@
                         elit. Soluta reprehenderit quasi esse. Illo ad molestias
                         iste aliquid quasi excepturi similique nobis, corrupti
                         quia temporibus dolorum debitis accusantium veniam
-                        distinctio minima.
+                        distinctio minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto repellendus laborum magnam dolore necessitatibus, libero inventore nesciunt ad ullam molestiae aliquam eaque sit, sequi quidem sint a, dolor et quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sunt necessitatibus natus cum aliquid expedita, provident reiciendis illum, nam, dignissimos consectetur distinctio. Culpa nesciunt eveniet temporibus aliquam quia libero commodi!
                     </p>
                 </div>
                 <div id="textSpace">

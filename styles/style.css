@@ -5,7 +5,7 @@ body {
 #contactInfoContainer {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1%;
     font-size: 10px;
     width: 50%;
     border: solid black 1px;
