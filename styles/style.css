@@ -1,14 +1,15 @@
-* {
-  background-color: whitesmoke;
+body {
+  background-color: cadetblue;
 }
 
 #contactInfoContainer {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 50%;
   font-size: 10px;
+  border: solid black 1px;
   background-color: #f1f1f1;
+  box-shadow: 2px 2px 2px black;
 }
 
 li a {
@@ -24,14 +25,18 @@ li a:hover {
   color: white;
 }
 
-#bodycontent {
+#bodyContent {
   display: flex;
-  background-color: wheat;
+  columns: 2;
+  background-color: rgb(122, 172, 173);
+  padding: 1%;
+  border: black solid 3px;
 }
 
 #imagenUsuario {
   object-fit: cover;
-  width: 30%;
+  border: #000 solid;
+  box-shadow: 2px 2px 2px black;
 }
 
 #headerBox{
@@ -41,3 +46,51 @@ li a:hover {
 #headerText{
   padding: 1%;
 }
+
+#imageContainer{
+  padding: 1%;
+  border-color: #000;
+}
+
+#textSpace{
+  padding-left: 1%;
+  border-top: 0px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 3%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
+#textSpace p{
+  padding-left: 1%;
+  margin-top: 1%;
+}
+
+#textSpace h3{
+  margin-bottom: 1%;
+}
+
+#nombreHeader {
+border: #000;
+border-width: 1px;}
+
+#nombreContainer {
+  border-color: #000;
+  border-width: 1px;
+}
+
+header {
+  background-color: black !;
+  color: black;
+}
+
+header h1{
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+
