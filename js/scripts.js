@@ -14,7 +14,7 @@ fillData = function (dataUsuario) {
     document.getElementById("correoText").innerHTML = dataUsuario.email;
     document.getElementById("telefonoText").innerHTML = dataUsuario.phone;
     document.getElementById("celularText").innerHTML = dataUsuario.cell;
-    document.getElementById("residenciaText").innerHTML =
+    document.getElementById("residenciaText").innerHTML = 
         dataUsuario.location.city +
         ", " +
         dataUsuario.location.state +
