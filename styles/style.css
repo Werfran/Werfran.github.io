@@ -16,6 +16,7 @@ body {
 #bodyTextContainer {
     margin-left: 1%;
     width: 75%;
+    padding-bottom: 100px;
 }
 
 li a {
@@ -96,7 +97,6 @@ li a:hover {
 #nombreContainer h2 {
     font-size: 300%;
     border-bottom: 5px solid black;
-
     white-space: normal;
 }
 
@@ -113,17 +113,28 @@ header h1 {
 .contactData {
     display: flex;
     justify-content: space-between;
+    font-size: larger;
 }
 
 .contactListItem h4{
+    font-size: larger;
     margin-bottom: 0%;
     text-decoration: underline;
 }
 
 .contactListItem{
-    margin-left: 1%;
+    margin-left: 2%;
 }
 
 #infoContacto{
     font-size: large;
+}
+
+button{
+    background-color: rgba(122, 172, 173, 1);
+    border: rgba(0, 0, 0, 0) ;
+}
+button:hover{
+    background-color: rgba(96, 137, 138, 0.8);
+    text
 }

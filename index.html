@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <h1>TITULO TP</h1>
+            <h1>CURRICULUM VITAE</h1>
         </header>
         <section id="bodyContent">
             <nav id="contactInfoContainer">
@@ -21,10 +21,13 @@
                 <li class="contactListItem">
                     <h4>Correo</h4>
                     <div class="contactData" style="display: flex">
-                        <p id="correoText"></p>
-                        <button onclick="bufferText('correoText')">
-                            <i class="fa fa-clipboard"></i>
-                        </button>
+                        <p onclick="mailTo()" id="correoText"></p>
+                        <div>
+                            <button onclick="mailTo()"><i class="fa fa-envelope"></i></button>
+                            <button onclick="bufferText('correoText')">
+                                <i class="fa fa-clipboard"></i>
+                            </button>
+                        </div>
                     </div>
                 </li>
                 <li class="contactListItem">
@@ -96,7 +99,7 @@
                     </p>
                 </div>
                 <div id="textSpace">
-                    <h3>Conocimiento</h3>
+                    <h3>Experiencia</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Soluta reprehenderit quasi esse. Illo ad molestias

@@ -31,3 +31,7 @@ function bufferText(fieldName) {
     document.execCommand("copy");
     document.body.removeChild(el);
 }
+
+function mailTo() {
+    window.location.href =  "mailTo:"+document.getElementById("correoText").innerHTML;
+}
