@@ -63,7 +63,7 @@ b li a:hover {
     width: 20%;
 }
 
-#textSpace {
+.textSpace {
     padding-left: 1%;
     border-top: 0px;
     border-bottom: 0.2vw;
@@ -77,13 +77,13 @@ b li a:hover {
     white-space: normal;
 }
 
-#textSpace p {
+.textSpace p {
     padding-left: 1%;
     margin-top: 1%;
     font-size: 2vw;
 }
 
-#textSpace h3 {
+.textSpace h3 {
     margin-bottom: 1%;
     font-size: 2vw;
 }
@@ -170,7 +170,7 @@ button {
         width: 98%;
         padding: 5%;
     }
-    #textSpace {
+    .textSpace {
         margin-left: 0%;
         padding-left: 0%;
     }
