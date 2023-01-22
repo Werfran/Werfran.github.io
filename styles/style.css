@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 1%;
     width: 30%;
-    border: solid black  0.2vw;
+    border: solid black 0.2vw;
     background-color: rgb(122, 172, 173);
     box-shadow: 0.2vw 0.2vw 0.2vw black;
 }
@@ -36,7 +36,7 @@ b li a:hover {
     columns: 2;
     background-color: whitesmoke;
     padding: 1%;
-    border: black solid  0.4vw;
+    border: black solid 0.4vw;
     box-shadow: 2px 2px 2px #000;
     margin: 2vw 3vw 1vw 3vw;
 }
@@ -96,7 +96,6 @@ b li a:hover {
 #nombreContainer {
     border-color: #000;
     border-width: 0.3vw;
-
 }
 
 #nombreContainer h2 {
@@ -138,7 +137,6 @@ header h1 {
 button {
     background-color: rgba(122, 172, 173, 0);
     border: rgba(0, 0, 0, 0);
-
 }
 button:hover {
     background-color: rgba(96, 137, 138, 0.8);
@@ -153,11 +151,20 @@ footer {
     font-size: 2vw;
 }
 button {
-    font-size: 2vw;
+    font-size: 3vw;
+}
+
+#mailButtonsContainer {
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 600px) {
-    #bodyContent{
+    #mailButtonsContainer {
+        display: flex;
+        flex-direction: row;
+    }
+    #bodyContent {
         columns: 1;
         flex-direction: column-reverse;
         align-items: center;
@@ -166,7 +173,7 @@ button {
         width: 90%;
         margin-bottom: 10%;
     }
-    #bodyTextContainer{
+    #bodyTextContainer {
         width: 98%;
         padding: 5%;
     }
@@ -174,4 +181,17 @@ button {
         margin-left: 0%;
         padding-left: 0%;
     }
-  }
+    .contactData {
+        display: flex;
+        justify-content: space-between;
+        font-size: 4vw;
+    }
+    .contactListItem h4 {
+        font-size: 4vw;
+        margin-bottom: 0%;
+        text-decoration: underline;
+    }
+    button {
+        font-size: 4vw;
+    }
+}
