@@ -25,7 +25,7 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color on hover */
+/* Change the link color on hover */b
 li a:hover {
     background-color: #555;
     color: white;
@@ -38,32 +38,39 @@ li a:hover {
     padding: 1%;
     border: black solid 3px;
     box-shadow: 2px 2px 2px #000 ;
+    margin: 2vw 2vw 1vw 1vw;
 }
 
 #imagenUsuario {
-    object-fit: cover;
     border: #000 solid;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 0.2vw 0.2vw  0.2vw black;
+    width: 100%;
+    height: auto;
 }
 
 #headerBox {
-    display: flex;
     background-color: rgba(122, 172, 173, 0.5);
+    display: inline-block;
 }
 
 #headerText {
+    width: 70%;
     padding: 1%;
+    display: inline-block;
+
 }
 
 #imageContainer {
+    display: inline-block;
     padding: 1%;
+    width: 20%;
     border-color: #000;
 }
 
 #textSpace {
     padding-left: 1%;
     border-top: 0px;
-    border-bottom: 1px;
+    border-bottom: 0.2vw;
     border-left: 0px;
     border-right: 0px;
     border-style: solid;
@@ -77,12 +84,12 @@ li a:hover {
 #textSpace p {
     padding-left: 1%;
     margin-top: 1%;
-    font-size: 1vw;
+    font-size: 2vw;
 }
 
 #textSpace h3 {
     margin-bottom: 1%;
-    font-size: 1vw;
+    font-size: 2vw;
 }
 
 #nombreHeader {
@@ -97,7 +104,7 @@ li a:hover {
 
 #nombreContainer h2 {
     font-size: 7vw;
-    border-bottom: 5px solid black;
+    border-bottom: 0.5vw solid black;
     white-space: normal;
 }
 
@@ -108,7 +115,6 @@ header {
 
 header h1 {
     text-align: center;
-    text-shadow: 1vw 1vw 1vw black;
     font-size: 5vw;
 }
 
@@ -133,7 +139,7 @@ header h1 {
 }
 
 button{
-    background-color: rgba(122, 172, 173, 1);
+    background-color: rgba(122, 172, 173, 0);
     border: rgba(0, 0, 0, 0) ;
 }
 button:hover{
@@ -142,4 +148,8 @@ button:hover{
 
 footer{
     font-size: 1vw;
+}
+
+i{
+    
 }
