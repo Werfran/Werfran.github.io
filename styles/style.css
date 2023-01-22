@@ -103,7 +103,7 @@ b li a:hover {
 }
 
 #nombreContainer h2 {
-    font-size: 7vw;
+    font-size: 4vw;
     border-bottom: 0.5vw solid black;
     white-space: normal;
 }
@@ -113,10 +113,7 @@ header {
     color: black;
 }
 
-header h1 {
-    text-align: center;
-    font-size: 5vw;
-}
+
 
 .contactData {
     display: flex;
@@ -135,7 +132,12 @@ header h1 {
 }
 
 #infoContacto {
-    font-size: 5vw;
+    font-size: 3vw;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2vw;
 }
 
 button {
@@ -207,5 +209,17 @@ button {
     }
     button {
         font-size: 4vw;
+    }
+    #infoContacto {
+        font-size: 5vw;
+    }
+    #nombreContainer h2 {
+        font-size: 8vw;
+        border-bottom: 0.5vw solid black;
+        white-space: normal;
+    }
+    header h1 {
+        text-align: center;
+        font-size: 5vw;
     }
 }
