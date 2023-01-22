@@ -155,3 +155,19 @@ footer {
 button {
     font-size: 2vw;
 }
+
+@media only screen and (max-width: 600px) {
+    #bodyContent{
+        columns: 1;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #contactInfoContainer {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    #bodyTextContainer{
+        width: 98%;
+        padding: 5%;
+    }
+  }
