@@ -49,8 +49,9 @@ b li a:hover {
 
 #headerBox {
     background-color: rgba(122, 172, 173, 0.5);
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
 }
 
 #headerText {
@@ -59,7 +60,10 @@ b li a:hover {
 }
 
 #imageContainer {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 20%;
 }
 
@@ -151,12 +155,12 @@ footer {
     font-size: 2vw;
 }
 button {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 #mailButtonsContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 @media only screen and (max-width: 600px) {
